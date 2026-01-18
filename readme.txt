@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for *Endie Liu*, *hanlunl1@uci.edu*--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -10,45 +10,54 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
+Multi-page architecture: including three pages: Home, Projects and Contact, which are interconnected through the navigation bar. 
+Semantic tags: header, nav, main, section, article, footer and other tags are used. 
+Content specification: All pictures contain alt descriptions, using Google Material Icons icons and external links.
 
 
 
 (b) CSS features
-
+Global Variables: Use CSS Variables (:root) to manage primary colors, background colors, and fonts.
+Typography Enhancement: Incorporate Google Fonts (Inter), and use rounded corners (border-radius) and shadows (box-shadow) to improve visual appeal.
+Basic Layout: Utilize padding and margin to optimize the reading experience.
 
 
 (c) Advanced features
+CSS Grid: Implemented a fully responsive card grid layout (auto-fit) on the project page.
+CSS Animations: Implemented background fluid gradient animation and page element entrance animation (fade up).
+Visual Effects: Used Glassmorphism (frosted glass) effect in the navigation bar and forms.
+Complex Layout: The hero section uses Flexbox to arrange text on the left and an image on the right, with automatic stacking on mobile devices.
 
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+Major errors were not overlooked.
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+Approximately a week.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
+Documentation and tools: MDN Web Docs (for looking up Grid/Flexbox properties), Google Fonts & Material Icons, W3C Validators.
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+None. This project was completed independently by an individual.
 
 
 7. Is there anything special we need to know in order to run your code?
-
+No special requirements. This is a purely static HTML/CSS project. Please ensure that the `css` and `img` folders are in the same directory as the HTML file.  Simply open `index.html` directly in your browser.
